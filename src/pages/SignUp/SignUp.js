@@ -40,7 +40,7 @@ function SignUp(props) {
     <div className="flex justify-center my-5">
       {props.showLoading && <Loader />}
       <div className="w-1/3 shadow p-3 border border-gray-400">
-        <h1 className="text-2xl font-extrabold">Sign Up</h1>
+        <h1 className="text-2xl font-extrabold">Sign Up!</h1>
 
         {props.errorMessage && (
           <div className="bg-red-300 text-red-900 border border-red-900 p-1 my-2">
